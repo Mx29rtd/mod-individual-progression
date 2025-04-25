@@ -1,32 +1,47 @@
+/*  Harvest Golem  */
+UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|8192|16384 WHERE entry=36;
+
 /*  Skeletal Warrior  */
-UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2 WHERE entry=48;
+UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2|16384 WHERE entry=48;
 
 /*  Rock Elemental  */
 UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2|16384 WHERE entry=92;
 
 /*  Harvest Watcher  */
-UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|8192 WHERE entry=114;
+UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|8192|16384 WHERE entry=114;
+
+/*  Harvest Reaper  */
+UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|8192|16384 WHERE entry=115;
 
 /*  Skeletal Horror  */
-UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2 WHERE entry=202;
+UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2|16384 WHERE entry=202;
 
 /*  Skeletal Mage  */
-UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2 WHERE entry=203;
+UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2|16384 WHERE entry=203;
 
 /*  Earth Elemental  */
 UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2|16384 WHERE entry=329;
+
+/*  Rusty Harvest Golem  */
+UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|8192|16384 WHERE entry=480;
 
 /*  Water Elemental  */
 UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2|16384 WHERE entry=510;
 
 /*  Skeletal Fiend  */
-UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2 WHERE entry=531;
+UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2|16384 WHERE entry=531;
+
+/*  Foe Reaper 4000  */
+UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|8192|16384 WHERE entry=573;
 
 /*  Fire Elemental  */
 UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2|16384 WHERE entry=575;
 
 /*  Skeletal Miner  */
-UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2 WHERE entry=623;
+UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2|16384 WHERE entry=623;
+
+/*  Sneed's Shredder  */
+UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|8192|16384 WHERE entry=642;
 
 /*  Rhahk'Zor  */
 UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|4194304|536870912 WHERE entry=644;
@@ -41,10 +56,10 @@ UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|1
 UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|16384 WHERE entry=765;
 
 /*  Skeletal Warder  */
-UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2 WHERE entry=785;
+UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2|16384 WHERE entry=785;
 
 /*  Skeletal Healer  */
-UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2 WHERE entry=787;
+UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2|16384 WHERE entry=787;
 
 /*  Dust Devil  */
 UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|16384 WHERE entry=832;
@@ -62,13 +77,13 @@ UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|1
 UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|16384 WHERE entry=1081;
 
 /*  Skeletal Raider  */
-UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2 WHERE entry=1110;
+UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2|16384 WHERE entry=1110;
 
 /*  Cursed Sailor  */
-UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2 WHERE entry=1157;
+UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2|16384 WHERE entry=1157;
 
 /*  Cursed Marine  */
-UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2 WHERE entry=1158;
+UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2|16384 WHERE entry=1158;
 
 /*  Captain Halyndor  */
 UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2 WHERE entry=1160;
@@ -77,49 +92,49 @@ UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2
 UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|16384 WHERE entry=1244;
 
 /*  Rattlecage Soldier  */
-UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2 WHERE entry=1520;
+UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2|16384 WHERE entry=1520;
 
 /*  Darkeye Bonecaster  */
-UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2 WHERE entry=1522;
+UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2|16384 WHERE entry=1522;
 
 /*  Cracked Skull Soldier  */
-UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2 WHERE entry=1523;
+UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2|16384 WHERE entry=1523;
 
 /*  Wailing Ancestor  */
-UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2 WHERE entry=1534;
+UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2|16384 WHERE entry=1534;
 
 /*  Nissa Agamand  */
-UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2 WHERE entry=1655;
+UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2|16384 WHERE entry=1655;
 
 /*  Devlin Agamand  */
-UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2 WHERE entry=1657;
+UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2|16384 WHERE entry=1657;
 
 /*  Captain Dargol  */
-UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2 WHERE entry=1658;
+UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2|16384 WHERE entry=1658;
 
 /*  Skeletal Flayer  */
-UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2 WHERE entry=1783;
+UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2|16384 WHERE entry=1783;
 
 /*  Skeletal Sorcerer  */
-UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2 WHERE entry=1784;
+UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2|16384 WHERE entry=1784;
 
 /*  Skeletal Terror  */
-UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2 WHERE entry=1785;
+UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2|16384 WHERE entry=1785;
 
 /*  Skeletal Executioner  */
-UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2 WHERE entry=1787;
+UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2|16384 WHERE entry=1787;
 
 /*  Skeletal Warlord  */
-UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2 WHERE entry=1788;
+UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2|16384 WHERE entry=1788;
 
 /*  Cold Wraith  */
-UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2 WHERE entry=1800;
+UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2|16384 WHERE entry=1800;
 
 /*  Blood Wraith  */
-UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2 WHERE entry=1801;
+UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2|16384 WHERE entry=1801;
 
 /*  Hungering Wraith  */
-UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2 WHERE entry=1802;
+UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2|16384 WHERE entry=1802;
 
 /*  Rotting Behemoth  */
 UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|16384 WHERE entry=1812;
@@ -134,28 +149,28 @@ UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|1
 UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|128 WHERE entry=1853;
 
 /*  Ravenclaw Raider  */
-UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2 WHERE entry=1865;
+UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2|16384 WHERE entry=1865;
 
 /*  Ravenclaw Champion  */
-UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2 WHERE entry=1869;
+UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2|16384 WHERE entry=1869;
 
 /*  Hand of Ravenclaw  */
-UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2 WHERE entry=1870;
+UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2|16384 WHERE entry=1870;
 
 /*  Eliza's Guard  */
-UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2 WHERE entry=1871;
+UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2|16384 WHERE entry=1871;
 
 /*  Rattlecage Skeleton  */
-UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2 WHERE entry=1890;
+UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2|16384 WHERE entry=1890;
 
 /*  Stephen Bhartec  */
-UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2 WHERE entry=1916;
+UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2|16384 WHERE entry=1916;
 
 /*  Rot Hide Brute  */
 UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|512 WHERE entry=1939;
 
 /*  Lillith Nefara  */
-UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2 WHERE entry=1946;
+UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2|16384 WHERE entry=1946;
 
 /*  Lake Creeper  */
 UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|16384 WHERE entry=1955;
@@ -167,10 +182,10 @@ UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|1
 UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|16384 WHERE entry=1964;
 
 /*  Ravenclaw Guardian  */
-UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2 WHERE entry=1973;
+UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2|16384 WHERE entry=1973;
 
 /*  Nightlash  */
-UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2 WHERE entry=1983;
+UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2|16384 WHERE entry=1983;
 
 /*  Timberling  */
 UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|16384 WHERE entry=2022;
@@ -185,7 +200,7 @@ UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|1
 UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|16384 WHERE entry=2030;
 
 /*  Forlorn Spirit  */
-UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2 WHERE entry=2044;
+UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|2|16384 WHERE entry=2044;
 
 /*  Cracked Golem  */
 UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|16384 WHERE entry=2156;
